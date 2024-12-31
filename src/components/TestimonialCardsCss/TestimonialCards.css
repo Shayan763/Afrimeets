@@ -1,0 +1,31 @@
+.mySwiper .swiper-pagination-bullet {
+    background-color: #67295f !important;
+    opacity: 1;
+  }
+  
+  .mySwiper .swiper-pagination-bullet-active {
+    background-color: #67295f !important;
+    transform: scale(1.2);
+  }
+  
+  .mySwiper .swiper-button-next,
+  .mySwiper .swiper-button-prev {
+    color: #67295f !important;
+  }
+  
+  .mySwiper .swiper-button-next:hover,
+  .mySwiper .swiper-button-prev:hover {
+    opacity: 0.8;
+  }
+  
+  .slide-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+    padding: 15px;
+    border: 2px solid white;
+    border-radius: 30px;
+  }
+  

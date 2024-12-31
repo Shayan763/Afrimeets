@@ -1,0 +1,24 @@
+/* TestimonialCards.css */
+
+/* Pagination bullets */
+.mySwiper .swiper-pagination-bullet {
+  background-color: #67295f; /* Set custom color for pagination bullets */
+  opacity: 0.8; /* Slight transparency */
+}
+
+.mySwiper .swiper-pagination-bullet-active {
+  background-color: #67295f; /* Active bullet matches the same color */
+  opacity: 1; /* Fully opaque */
+}
+
+/* Navigation arrows */
+.mySwiper .swiper-button-next,
+.mySwiper .swiper-button-prev {
+  color: #67295f; /* Set custom color for navigation arrows */
+  font-size: 1.5rem; /* Adjust size if needed */
+}
+
+.mySwiper .swiper-button-next:hover,
+.mySwiper .swiper-button-prev:hover {
+  color: #8a3a6e; /* Slightly lighter shade on hover */
+}
