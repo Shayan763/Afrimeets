@@ -11,7 +11,7 @@ type Option = {
 
 const languageOptions = ["English", "Chinese", "Turkish", "Russian"];
 
-export default function Header() {
+export default function AboutHeader() {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
   const [languageOptionsState, setLanguageOptionsState] = useState<Option | null>(null);
 
@@ -27,15 +27,15 @@ export default function Header() {
           <div>
             <BaseImage
               src="/assets/images/logo.png"
-              height={120}
-              width={120}
+              height={80}
+              width={80}
               alt="logo"
               style={{ objectFit: "cover" }}
             />
           </div>
 
           {/* Center Brand */}
-          <div className="hidden md:flex text-white space-x-8 font-normal">
+          <div className="hidden md:flex text-black space-x-8 font-normal">
             <a href="/">Home</a>
             <a href="/about-us">About Us</a>
             <a href="/subscription">Subscription</a>
@@ -44,17 +44,17 @@ export default function Header() {
 
           {/* Right Links (Mobile Menu Button) */}
           <div className="md:hidden flex items-center">
-            <button onClick={toggleDrawer} className="text-white text-2xl">
+            <button onClick={toggleDrawer} className="text-black text-2xl">
               {/* Icon for Drawer toggle (hamburger) */}
               <span>&#9776;</span>
             </button>
           </div>
 
           {/* Right Links (Desktop Menu) */}
-          <div className="hidden md:flex justify-end text-white space-x-8 font-normal">
+          <div className="hidden md:flex justify-end text-black space-x-8 font-normal">
             <Dropdown
               placeholder="English"
-              className="border-none text-base mr-4 text-white"
+              className="border-none text-base mr-4 text-black"
               options={languageOptions}
               selectedOption={languageOptionsState}
               setSelectedOption={setLanguageOptionsState}
@@ -70,11 +70,11 @@ export default function Header() {
           }`}
         >
           <div className="flex justify-end p-4">
-            <button onClick={toggleDrawer} className="text-white text-2xl">
+            <button onClick={toggleDrawer} className="text-black text-2xl">
               &times; {/* Close Icon */}
             </button>
           </div>
-          <div className="flex flex-col items-start px-4 justify-start space-y-6 text-white pb-6">
+          <div className="flex flex-col items-start px-4 justify-start space-y-6 text-black pb-6">
             <a href="/" className="text-base">
               Home
             </a>

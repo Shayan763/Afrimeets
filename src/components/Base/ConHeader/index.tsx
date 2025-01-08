@@ -29,12 +29,11 @@ export default function ConHeader() {
           <div className='flex text-white space-x-8 font-light text-base'>
             <Link href="/">
               <BaseImage
-                src='/assets/images/logo11.png'
-                height={30}
-                width={30}
-                alt='Logo'
-                style={{ objectFit: 'cover' }}
-                className='object-cover'
+                src="/assets/images/logo.png"
+                height={80}
+                width={80}
+                alt="logo"
+                style={{ objectFit: "cover" }}
               />
             </Link>
           </div>
@@ -57,9 +56,6 @@ export default function ConHeader() {
               setSelectedOption={setlanguageOptionsState}
               required
             />
-            <div className='bg-primary p-2 rounded-full px-6 text-base'>
-              <a href="/contact-us">Contact Us</a>
-            </div>
           </div>
 
           {/* Hamburger Menu for Mobile */}

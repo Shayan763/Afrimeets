@@ -24,19 +24,19 @@ export default function AboutSubscriptionCard() {
               <div>
                 <Heading
                   level={5}
-                  className="hover:scale-110 transition-transform duration-200 text-white font-bold text-lg md:text-xl lg:text-2xl mb-3"
+                  className="text-white font-bold text-lg md:text-xl lg:text-2xl mb-3"
                 >
                   LOREM IPSUM
                 </Heading>
-                <p className="hover:scale-110 transition-transform duration-200 text-white text-sm md:text-base font-light mb-6">
+                <p className="text-white text-sm md:text-base font-light mb-6">
                   Lorem Ipsum is simply dummy text of the printing and typesetting
                   industry. Lorem lum has
                 </p>
-                <Heading level={5} className="text-white font-bold whitespace-normal text-lg mb-1 hover:scale-110 transition-transform duration-200">$50/Month</Heading>
-                <Heading level={5} className="text-primary font-bold whitespace-normal text-2xl mb-3 hover:scale-110 transition-transform duration-200"> or $540/Year (Save 10%)</Heading>
+                <Heading level={5} className="text-white font-bold whitespace-normal text-lg mb-1">$50/Month</Heading>
+                <Heading level={5} className="text-primary font-bold whitespace-normal text-2xl mb-3"> or $540/Year (Save 10%)</Heading>
               </div>
               <div className="mt-4">
-                <ul className="hover:scale-110 transition-transform duration-200 text-white text-sm md:text-base font-light mb-6 list-disc pl-5">
+                <ul className="text-white text-sm md:text-base font-light mb-6 list-disc pl-5">
                   <li>Connect with 4 individuals per month.</li>
                   <li>Unlimited Messaging to engage with anyone.</li>
                   <li>Access to secure private chats for meaningful conversations.</li>
@@ -67,19 +67,19 @@ export default function AboutSubscriptionCard() {
               <div>
                 <Heading
                   level={5}
-                  className="hover:scale-110 transition-transform duration-200 text-white font-bold text-lg md:text-xl lg:text-2xl mb-3"
+                  className="text-white font-bold text-lg md:text-xl lg:text-2xl mb-3"
                 >
                   LOREM IPSUM
                 </Heading>
-                <p className="hover:scale-110 transition-transform duration-200 text-white text-sm md:text-base font-light mb-6">
+                <p className="text-white text-sm md:text-base font-light mb-6">
                   Lorem Ipsum is simply dummy text of the printing and typesetting
                   industry. Lorem lum has
                 </p>
-                <Heading level={5} className="text-white font-bold whitespace-normal text-lg mb-1 hover:scale-110 transition-transform duration-200">$120/Month</Heading>
-                <Heading level={5} className="text-primary font-bold whitespace-normal text-2xl mb-3 hover:scale-110 transition-transform duration-200"> or $1,152/Year (Save 20%)</Heading>
+                <Heading level={5} className="text-white font-bold whitespace-normal text-lg mb-1">$120/Month</Heading>
+                <Heading level={5} className="text-primary font-bold whitespace-normal text-2xl mb-3"> or $1,152/Year (Save 20%)</Heading>
               </div>
               <div className="mt-4">
-                <ul className="hover:scale-110 transition-transform duration-200 text-white text-sm md:text-base font-light mb-6 list-disc pl-5">
+                <ul className="text-white text-sm md:text-base font-light mb-6 list-disc pl-5">
                   <li>Connect with 15 individuals per month.</li>
                   <li>Access to advanced search filters: Find people who align with your values, interests, and location.</li>
                   <li>Join exclusive community forums to engage in discussions and meet like-minded individuals.</li>
@@ -111,19 +111,19 @@ export default function AboutSubscriptionCard() {
               <div>
                 <Heading
                   level={5}
-                  className="hover:scale-110 transition-transform duration-200 text-white font-bold text-lg md:text-xl lg:text-2xl mb-3"
+                  className="text-white font-bold text-lg md:text-xl lg:text-2xl mb-3"
                 >
                   LOREM IPSUM
                 </Heading>
-                <p className="hover:scale-110 transition-transform duration-200 text-white text-sm md:text-base font-light mb-6">
+                <p className="text-white text-sm md:text-base font-light mb-6">
                   Lorem Ipsum is simply dummy text of the printing and typesetting
                   industry. Lorem lum has
                 </p>
-                <Heading level={5} className="text-white font-bold whitespace-normal text-lg mb-1 hover:scale-110 transition-transform duration-200">$50/Month</Heading>
-                <Heading level={5} className="text-primary font-bold whitespace-normal text-2xl mb-3 hover:scale-110 transition-transform duration-200"> or $540/Year (Save 10%)</Heading>
+                <Heading level={5} className="text-white font-bold whitespace-normal text-lg mb-1">$50/Month</Heading>
+                <Heading level={5} className="text-primary font-bold whitespace-normal text-2xl mb-3"> or $540/Year (Save 10%)</Heading>
               </div>
               <div className="mt-4">
-                <ul className="hover:scale-110 transition-transform duration-200 text-white text-sm md:text-base font-light mb-6 list-disc pl-5">
+                <ul className="text-white text-sm md:text-base font-light mb-6 list-disc pl-5">
                   <li>Connect with 4 individuals per month.</li>
                   <li>Unlimited Messaging to engage with anyone.</li>
                   <li>Access to secure private chats for meaningful conversations.</li>

@@ -11,25 +11,25 @@ import Heading from '../Base/Heading';
 import Container from '../Base/Container';
 import Link from "next/link";
 
-export default function HomeSliderBanner() {
+export default function AboutSliderBanner() {
     const slides = [
         {
             title: "Connecting African and ",
             subtitle: "Black Communities Worldwide",
             description: "Start building meaningful relationships with individuals who share your values, culture, and heritage.",
-            image: "/assets/images/homebanner.png",
+            image: "/assets/images/about1.jpg",
         },
         {
             title: "Connecting African and ",
             subtitle: "Black Communities Worldwide",
             description: "Start building meaningful relationships with individuals who share your values, culture, and heritage.",
-            image: "/assets/images/banner2.jpg",
+            image: "/assets/images/about2.jpg",
         },
         {
             title: "Connecting African and ",
             subtitle: "Black Communities Worldwide",
             description: "Start building meaningful relationships with individuals who share your values, culture, and heritage.",
-            image: "/assets/images/banner3.jpg",
+            image: "/assets/images/about3.jpg",
         },
     ];
 
@@ -41,7 +41,11 @@ export default function HomeSliderBanner() {
                 slidesPerView={1}
                 navigation
                 pagination={{ clickable: true }}
-                autoplay={{ delay: 3000, disableOnInteraction: false }}
+                autoplay={{
+                    delay: 5000, // Adjust the delay (5000ms = 5 seconds)
+                    disableOnInteraction: false,
+                }}
+                speed={2000} // Adjust the transition speed (2000ms = 2 seconds)
                 loop
                 className="h-full"
             >
@@ -56,7 +60,7 @@ export default function HomeSliderBanner() {
                             {/* 20% Black Overlay */}
 
                             <div className="px-4 z-50" style={{ flexGrow: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'flex-start', maxWidth: '600px', marginTop: '20px' }}>
-
+                            <div className="absolute inset-0 bg-black opacity-40"></div>
                                 <Container>
                                     <div className="z-50">
                                         <div className="flex space-x-4 text-white mb-4 z-50">
@@ -67,10 +71,10 @@ export default function HomeSliderBanner() {
                                             <FaTumblr className="z-50 hover:scale-110 hover:text-blue-800 transition-transform duration-200" />
                                         </div>
 
-                                        <Heading level={1} className="z-50 animate-fadeInFromTop text-white font-bold text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl mb-4">
+                                        <Heading level={1} className="z-50 hover:scale-110 transition-transform duration-200 text-white font-bold text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl mb-4">
                                             {slide.title} <br /> {slide.subtitle}
                                         </Heading>
-                                        <p className="z-50 animate-fadeInFromTop text-white text-lg mb-6">{slide.description}</p>
+                                        <p className="z-50 hover:scale-110 transition-transform duration-200 text-white text-lg mb-6">{slide.description}</p>
                                         <Link href='/subscription'>
                                             <Button
                                                 title="Get Started"

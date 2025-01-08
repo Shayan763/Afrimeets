@@ -9,12 +9,12 @@ interface PropsType {
 }
 
 const baseClasses = [
-  "text-[1.5rem] whitespace-nowrap text-ellipsis font-bold",
-  "text-[1.3rem] whitespace-nowrap text-ellipsis font-semibold",
-  "text-[1.2rem] whitespace-nowrap text-ellipsis font-medium",
-  "text-[1.1rem] whitespace-nowrap text-ellipsis font-medium",
-  "text-[1rem] whitespace-nowrap text-ellipsis font-medium",
-  "text-[0.9rem] whitespace-nowrap text-ellipsis font-medium",
+  "text-[1.5rem] whitespace-nowrap text-ellipsis font-bold z-50",
+  "text-[1.3rem] whitespace-nowrap text-ellipsis font-semibold z-50",
+  "text-[1.2rem] whitespace-nowrap text-ellipsis font-medium z-50",
+  "text-[1.1rem] whitespace-nowrap text-ellipsis font-medium z-50",
+  "text-[1rem] whitespace-nowrap text-ellipsis font-medium z-50",
+  "text-[0.9rem] whitespace-nowrap text-ellipsis font-medium z-50",
 ];
 
 export default function Heading({ level, className, children, title }: PropsType) {

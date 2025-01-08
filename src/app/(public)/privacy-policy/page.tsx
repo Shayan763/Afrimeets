@@ -1,12 +1,12 @@
 import React from 'react';
 import Footer from '@/components/Base/Footer/Index';
-import BlackHeader from '@/components/Base/BlackHeader';
+import Header from '@/components/Base/Header';
 import PrivacyPolicy from './privacypolicy';
 
 export default async function page() {
     return (
         <div className="w-full">
-            <BlackHeader />
+            <Header />
             <PrivacyPolicy />
             <div className='mt-16'>
                 <Footer />

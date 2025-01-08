@@ -11,7 +11,7 @@ export default function Subscription() {
     <div>
 
       <div
-        className='overflow-x-hidden bg-cover bg-center h-screen w-full flex flex-col justify-between p-5 sm:p-10'
+        className='overflow-x-hidden bg-cover bg-center h-screen w-full flex flex-col justify-between p-5 sm:p-10 mb-10'
         style={{
           backgroundImage: `url(/assets/images/aboutusbanner.png)`,
           overflow: 'hidden',
@@ -30,10 +30,10 @@ export default function Subscription() {
                 <FaInstagram className="hover:scale-110 hover:text-pink-500 transition-transform duration-200" />
                 <FaTumblr className="hover:scale-110 hover:text-blue-800 transition-transform duration-200" />
               </div>
-              <Heading level={1} className='hover:scale-110 transition-transform duration-200 text-white font-bold text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl mb-4'>
+              <Heading level={1} className=' text-white font-bold text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl mb-4'>
                 Dating for Grown Ups <br /> Make a Real Connection
               </Heading>
-              <p className='hover:scale-110 transition-transform duration-200 text-white text-lg mb-6'>Start meeting singles who are ready to commit today.</p>
+              <p className='text-white text-lg mb-6'>Start meeting singles who are ready to commit today.</p>
               <Button
                 title='Get Started'
                 isPrimary

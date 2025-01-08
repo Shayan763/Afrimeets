@@ -6,8 +6,8 @@ import BaseImage from '../Base/BaseImage'
 export default function AboutExtraDetail() {
   return (
     <div>
-      <Heading level={2} className='hover:scale-110 transition-transform duration-200 text-primary mt-10 text-center text-3xl'>Why Subscribe to Afrimeets Premium?</Heading>
-      <Heading level={4} className='hover:scale-110 transition-transform duration-200 text-center text-black mb-10'>Choose the plan that best suits your goals and start building genuine connections today!</Heading>
+      <Heading level={2} className='animate-fadeInFromTop text-primary mt-10 text-center text-3xl'>Why Subscribe to Afrimeets Premium?</Heading>
+      <Heading level={4} className='animate-fadeInFromLeft text-center text-black mb-10'>Choose the plan that best suits your goals and start building genuine connections today!</Heading>
       <Container>
         <div className='flex flex-col md:flex-row'>
           <div className='hover:scale-110 transition-transform duration-200'>
@@ -19,7 +19,7 @@ export default function AboutExtraDetail() {
             />
           </div>
           <div className='flex flex-col justify-center align-middle items-center space-y-4'>
-            <ul className="hover:scale-110 transition-transform duration-200 text-black text-sm md:text-base font-light mb-6 list-disc pl-5">
+            <ul className="animate-fadeInFromRight text-black text-sm md:text-base font-light mb-6 list-disc pl-5">
               <li className='font-normal'><span className='text-primary text-xl font-normal'>More Opportunities:</span> Increase your chances of finding meaningful relationships.</li>
               <li className='font-normal'><span className='text-primary text-xl font-normal'>Enhanced Features:</span> Connect via messaging, video, and private chats.</li>
               <li className='font-normal'><span className='text-primary text-xl font-normal'>Authenticity & Trust:</span> Get access to verified and real profiles.</li>
@@ -31,10 +31,10 @@ export default function AboutExtraDetail() {
         </div>
         <div className='flex flex-col md:flex-row mt-14 justify-between gap-4'>
           <div className='flex flex-col space-y-4 w-1/2 align-middle justify-center'>
-            <Heading level={2} className='text-primary mt-10 text-left text-3xl hover:scale-110 transition-transform duration-200'>Subscription Add-On Plans</Heading>
-            <p className='text-black whitespace-normal hover:scale-110 transition-transform duration-200'>Looking to boost your chances of building meaningful connections? Afrimeets offers exclusive Connect Add-On Plans designed to enhance your experience and help you interact with more individuals.</p>
+            <Heading level={2} className='text-primary mt-10 text-left text-3xl animate-fadeInFromLeft'>Subscription Add-On Plans</Heading>
+            <p className='text-black whitespace-normal animate-fadeInFromLeft'>Looking to boost your chances of building meaningful connections? Afrimeets offers exclusive Connect Add-On Plans designed to enhance your experience and help you interact with more individuals.</p>
           </div>
-          <div className='hover:scale-110 transition-transform duration-200'>
+          <div className='animate-fadeInFromTop'>
             <BaseImage
               src='/assets/images/subscription1.png'
               height={700}
@@ -48,7 +48,7 @@ export default function AboutExtraDetail() {
         {/* available add on packages open */}
 
         <div className='flex flex-col justify-center mb-10 w-full'>
-          <Heading level={3} className='hover:scale-110 transition-transform duration-200 items-center text-center mt-12 mb-8 text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-black'>Available <span className='text-primary'>Add-On</span> Packages</Heading>
+          <Heading level={3} className='animate-fadeInFromRight items-center text-center mt-12 mb-8 text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-black'>Available <span className='text-primary'>Add-On</span> Packages</Heading>
           <div className='grid grid-cols-1 lg:grid-cols-3 space-x-6 space-y-10 lg:space-y-0 gap-6 items-center text-center'>
             <div className='col-span-1 flex flex-col items-center text-center space-y-6 transform transition-transform hover:scale-105 duration-300'>
               <BaseImage
@@ -95,7 +95,7 @@ export default function AboutExtraDetail() {
 
         {/* What are connect open */}
         <div className='flex flex-col md:flex-row'>
-          <div className='hover:scale-110 transition-transform duration-200'>
+          <div className='animate-fadeInFromLeft'>
             <BaseImage
               src='/assets/images/subscription1.png'
               height={700}
@@ -104,8 +104,8 @@ export default function AboutExtraDetail() {
             />
           </div>
           <div className='flex flex-col align-middle space-y-4'>
-            <Heading level={2} className='text-primary mt-10 text-left text-3xl hover:scale-110 transition-transform duration-200'>What Are Connects?</Heading>
-            <ul className="hover:scale-110 transition-transform duration-200 text-black text-sm md:text-base font-light mb-6 list-disc pl-5">
+            <Heading level={2} className='text-primary mt-10 text-left text-3xl animate-fadeInFromRight'>What Are Connects?</Heading>
+            <ul className="animate-fadeInFromRight text-black text-sm md:text-base font-light mb-6 list-disc pl-5">
               <li className='font-normal'>Connects allow you to send targeted and exclusive requests to individuals you find interesting.</li>
               <li className='font-normal'>Once used, connects give your profile priority visibility, ensuring your interest stands out.</li>
               <li className='font-normal'>Connects can be added anytime on top of your existing subscription plan.</li>
@@ -119,8 +119,8 @@ export default function AboutExtraDetail() {
         {/* Why Choose Add-On Connects? open */}
         <div className='flex flex-col md:flex-row gap-10'>
           <div className='flex flex-col justify-center align-middle space-y-4'>
-            <Heading level={2} className='text-primary mt-10 text-left text-3xl hover:scale-110 transition-transform duration-200'>Why Choose Add-On Connects?</Heading>
-            <ul className="hover:scale-110 transition-transform duration-200 text-black text-sm md:text-base font-light mb-6 list-disc pl-5">
+            <Heading level={2} className='text-primary mt-10 text-left text-3xl animate-fadeInFromLeft'>Why Choose Add-On Connects?</Heading>
+            <ul className="animate-fadeInFromLeft text-black text-sm md:text-base font-light mb-6 list-disc pl-5">
               <li className='font-normal'><span className='text-primary text-xl font-normal'>Enhanced Interaction: </span> Break limits and connect with more profiles instantly.</li>
               <li className='font-normal'><span className='text-primary text-xl font-normal'>Greater Visibility: </span> Stand out to users and increase response rates.</li>
               <li className='font-normal'><span className='text-primary text-xl font-normal'>Tailored Connections: </span> Handpick and prioritize individuals that match your preferences.</li>
@@ -128,7 +128,7 @@ export default function AboutExtraDetail() {
             <div>
             </div>
           </div>
-          <div className='hover:scale-110 transition-transform duration-200 pl-3'>
+          <div className='animate-fadeInFromRight pl-3'>
             <BaseImage
               src='/assets/images/subscription1.png'
               height={700}
@@ -143,7 +143,7 @@ export default function AboutExtraDetail() {
         {/* How to Purchase Add-On Plans open */}
 
         <div className='flex flex-col md:flex-row gap-10'>
-          <div className='hover:scale-110 transition-transform duration-200 pl-3'>
+          <div className='animate-fadeInFromLeft pl-3'>
             <BaseImage
               src='/assets/images/subscription1.png'
               height={700}
@@ -152,8 +152,8 @@ export default function AboutExtraDetail() {
             />
           </div>
           <div className='flex flex-col justify-center align-middle space-y-4'>
-            <Heading level={2} className='text-primary mt-10 text-left text-3xl hover:scale-110 transition-transform duration-200'>How to Purchase Add-On Plans</Heading>
-            <ul className="hover:scale-110 transition-transform duration-200 text-black text-sm md:text-base font-light mb-6 list-disc pl-5">
+            <Heading level={2} className='text-primary mt-10 text-left text-3xl animate-fadeInFromLeft'>How to Purchase Add-On Plans</Heading>
+            <ul className=" animate-fadeInFromLeft text-black text-sm md:text-base font-light mb-6 list-disc pl-5">
               <li className='font-normal'>Log in to your Afrimeets account.</li>
               <li className='font-normal'>Navigate to the Subscription Add-On section.</li>
               <li className='font-normal'>Select your desired Connect Add-On Plan (5, 10, or 15 Connects).</li>
