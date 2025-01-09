@@ -5,9 +5,9 @@ import Heading from '../Base/Heading'
 
 export default function AboutUsDetailCardsOne() {
     return (
-        <Container className='mt-10'>
+        <Container className='mt-20'>
             <div className='flex flex-col md:flex-row items-center justify-center w-full'>
-                <div className='hover:scale-110 transition-transform duration-200 flex justify-center lg:justify-start md:w-1/2'>
+                <div className='animate-fadeInFromRight flex justify-center lg:justify-start md:w-1/2'>
                     <BaseImage
                         src='/assets/images/abtsec.png'
                         height={500}
@@ -18,13 +18,13 @@ export default function AboutUsDetailCardsOne() {
                     />
                 </div>
                 <div className='flex flex-col items-center md:items-start md:w-1/2 w-3/4 space-y-4'>
-                    <div className='text-center md:text-left'>
+                    <div className='animate-fadeInFromLeft text-center md:text-left'>
                         <Heading level={3} className='hover:scale-110 transition-transform duration-200 text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-black'>About <span className='text-primary'> Afrimeets</span></Heading>
                     </div>
-                    <p className='hover:scale-110 transition-transform duration-200 text-[#20202080] text-center md:text-left'>Welcome to Afrimeets, the leading platform designed to connect African and Black singles worldwide. We are more than just a connection site—we are a community built to celebrate culture, heritage, and the power of meaningful relationships. Afrimeets provides a trusted, inclusive space for individuals seeking friendship, companionship, or meaningful connections that align with their values, traditions, and goals.
+                    <p className='animate-fadeInFromRight text-[#20202080] text-center md:text-left'>Welcome to Afrimeets, the leading platform designed to connect African and Black singles worldwide. We are more than just a connection site—we are a community built to celebrate culture, heritage, and the power of meaningful relationships. Afrimeets provides a trusted, inclusive space for individuals seeking friendship, companionship, or meaningful connections that align with their values, traditions, and goals.
                     </p>
-                    <p className='hover:scale-110 transition-transform duration-200 text-[#20202080] text-center md:text-left'>At Afrimeets, we understand the beauty and diversity of African and Black identities. Whether you’re in Africa, part of the diaspora, or anywhere around the globe, our platform brings you closer to individuals who truly understand your culture and aspirations.</p>
-                    <p className='hover:scale-110 transition-transform duration-200 text-[#20202080] text-center md:text-left'>We believe relationships begin with authenticity and connection. Our easy-to-use platform, advanced features, and secure environment make it simple to meet like-minded individuals ready to build meaningful bonds.</p>
+                    <p className='animate-fadeInFromRight text-[#20202080] text-center md:text-left'>At Afrimeets, we understand the beauty and diversity of African and Black identities. Whether you’re in Africa, part of the diaspora, or anywhere around the globe, our platform brings you closer to individuals who truly understand your culture and aspirations.</p>
+                    <p className='animate-fadeInFromRight text-[#20202080] text-center md:text-left'>We believe relationships begin with authenticity and connection. Our easy-to-use platform, advanced features, and secure environment make it simple to meet like-minded individuals ready to build meaningful bonds.</p>
                 </div>
             </div>
             <div className='flex flex-col justify-center mb-10'>

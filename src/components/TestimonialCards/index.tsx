@@ -19,119 +19,78 @@ export default function TestimonialCards() {
                 display: 'flex',
                 flexDirection: 'column',
                 justifyContent: 'space-between',
-                padding: '0px 40px 100px 40px',
+                padding: '40px 20px 100px 20px', // Adjusted padding for smaller screens
             }}
         >
             <Container>
                 <Swiper
                     modules={[Navigation, Pagination]}
-                    spaceBetween={30} // Space between slides
-                    slidesPerView={3} // Show 3 slides by default
-                    loop={true} // Enable loop to continuously roll through slides
-                    navigation // Enable navigation buttons
-                    pagination={{ clickable: true }} // Enable clickable pagination
-                    className="mt-36"
+                    spaceBetween={20} // Reduced spacing for smaller screens
+                    slidesPerView={1} // Default to 1 slide
+                    loop={true}
+                    navigation
+                    pagination={{ clickable: true }}
+                    className="mt-16"
                     breakpoints={{
                         640: {
-                            slidesPerView: 1, // Show 1 slide on small screens
+                            slidesPerView: 1, // 1 slide on small screens
+                            spaceBetween: 20,
                         },
                         768: {
-                            slidesPerView: 2, // Show 2 slides on medium screens
+                            slidesPerView: 2, // 2 slides on medium screens
+                            spaceBetween: 30,
                         },
                         1024: {
-                            slidesPerView: 3, // Show 3 slides on large screens
+                            slidesPerView: 3, // 3 slides on large screens
+                            spaceBetween: 40,
                         },
                     }}
                 >
-                    {/* Testimonial Card 1 */}
-                    <SwiperSlide className='p-4'>
-                        <div className='flex flex-col items-center text-center space-y-3 border p-3 rounded-3xl border-white transition-transform transform hover:scale-105 hover:z-50'>
-                            <BaseImage
-                                src='/assets/images/secinnr.png'
-                                height={100}
-                                width={100}
-                                alt='homebanner2'
-                                className='object-cover'
-                            />
-                            <p className='text-white'>
-                                “Afrimeets gave me a space to connect with people who share my values and culture.”
-                            </p>
-                            <Heading level={6} className='text-white'>DEVON LARRET</Heading>
-                            <Heading level={6} className='text-white font-light'>FOUNDER, SOME COMPANY</Heading>
-                        </div>
-                    </SwiperSlide>
-
-                    {/* Testimonial Card 2 */}
-                    <SwiperSlide className='p-4'>
-                        <div className='flex flex-col items-center text-center space-y-3 border p-3 rounded-3xl border-white transition-transform transform hover:scale-105'>
-                            <BaseImage
-                                src='/assets/images/secinnr.png'
-                                height={100}
-                                width={100}
-                                alt='homebanner2'
-                                className='object-cover'
-                            />
-                            <p className='text-white'>
-                                “A unique platform that fosters genuine connections across the globe.”
-                            </p>
-                            <Heading level={6} className='text-white'>DEVON LARRET</Heading>
-                            <Heading level={6} className='text-white font-light'>FOUNDER, SOME COMPANY</Heading>
-                        </div>
-                    </SwiperSlide>
-
-                    {/* Testimonial Card 3 */}
-                    <SwiperSlide className='p-4'>
-                        <div className='flex flex-col items-center text-center space-y-3 border p-3 rounded-3xl border-white transition-transform transform hover:scale-105'>
-                            <BaseImage
-                                src='/assets/images/secinnr.png'
-                                height={100}
-                                width={100}
-                                alt='homebanner2'
-                                className='object-cover'
-                            />
-                            <p className='text-white'>
-                                “Afrimeets has helped me find incredible friendships and meaningful collaborations.”
-                            </p>
-                            <Heading level={6} className='text-white'>DEVON LARRET</Heading>
-                            <Heading level={6} className='text-white font-light'>FOUNDER, SOME COMPANY</Heading>
-                        </div>
-                    </SwiperSlide>
-
-                    {/* Testimonial Card 4 */}
-                    <SwiperSlide className='p-4'>
-                        <div className='flex flex-col items-center text-center space-y-3 border p-3 rounded-3xl border-white transition-transform transform hover:scale-105 hover:z-50'>
-                            <BaseImage
-                                src='/assets/images/secinnr.png'
-                                height={100}
-                                width={100}
-                                alt='homebanner2'
-                                className='object-cover'
-                            />
-                            <p className='text-white'>
-                                “Afrimeets gave me a space to connect with people who share my values and culture.”
-                            </p>
-                            <Heading level={6} className='text-white'>DEVON LARRET</Heading>
-                            <Heading level={6} className='text-white font-light'>FOUNDER, SOME COMPANY</Heading>
-                        </div>
-                    </SwiperSlide>
-
-                    {/* Testimonial Card 5 */}
-                    <SwiperSlide className='p-4'>
-                        <div className='flex flex-col items-center text-center space-y-3 border p-3 rounded-3xl border-white transition-transform transform hover:scale-105'>
-                            <BaseImage
-                                src='/assets/images/secinnr.png'
-                                height={100}
-                                width={100}
-                                alt='homebanner2'
-                                className='object-cover'
-                            />
-                            <p className='text-white'>
-                                “A unique platform that fosters genuine connections across the globe.”
-                            </p>
-                            <Heading level={6} className='text-white'>DEVON LARRET</Heading>
-                            <Heading level={6} className='text-white font-light'>FOUNDER, SOME COMPANY</Heading>
-                        </div>
-                    </SwiperSlide>
+                    {/* Map Over Testimonials to Avoid Repetition */}
+                    {[
+                        {
+                            id: 1,
+                            image: '/assets/images/secinnr.png',
+                            text: "Afrimeets gave me a space to connect with people who share my values and culture.",
+                            name: "DEVON LARRET",
+                            title: "FOUNDER, SOME COMPANY",
+                        },
+                        {
+                            id: 2,
+                            image: '/assets/images/secinnr.png',
+                            text: "A unique platform that fosters genuine connections across the globe.",
+                            name: "DEVON LARRET",
+                            title: "FOUNDER, SOME COMPANY",
+                        },
+                        {
+                            id: 3,
+                            image: '/assets/images/secinnr.png',
+                            text: "Afrimeets has helped me find incredible friendships and meaningful collaborations.",
+                            name: "DEVON LARRET",
+                            title: "FOUNDER, SOME COMPANY",
+                        },
+                    ].map((testimonial) => (
+                        <SwiperSlide key={testimonial.id} className="p-4">
+                            <div className="flex flex-col items-center text-center space-y-3 border p-3 rounded-3xl border-white transition-transform transform hover:scale-105 hover:z-50">
+                                <BaseImage
+                                    src={testimonial.image}
+                                    height={100}
+                                    width={100}
+                                    alt="testimonial"
+                                    className="object-cover rounded-full"
+                                />
+                                <p className="text-white text-sm md:text-base lg:text-lg">
+                                    {testimonial.text}
+                                </p>
+                                <Heading level={6} className="text-white text-sm md:text-base lg:text-lg">
+                                    {testimonial.name}
+                                </Heading>
+                                <Heading level={6} className="text-white font-light text-xs md:text-sm lg:text-base">
+                                    {testimonial.title}
+                                </Heading>
+                            </div>
+                        </SwiperSlide>
+                    ))}
                 </Swiper>
             </Container>
         </div>
