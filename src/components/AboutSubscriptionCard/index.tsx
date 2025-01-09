@@ -26,12 +26,8 @@ export default function AboutSubscriptionCard() {
                   level={5}
                   className="text-white font-bold text-lg md:text-xl lg:text-2xl mb-3"
                 >
-                  LOREM IPSUM
+                  Subscription Plan 1
                 </Heading>
-                <p className="text-white text-sm md:text-base font-light mb-6">
-                  Lorem Ipsum is simply dummy text of the printing and typesetting
-                  industry. Lorem lum has
-                </p>
                 <Heading level={5} className="text-white font-bold whitespace-normal text-lg mb-1">$50/Month</Heading>
                 <Heading level={5} className="text-primary font-bold whitespace-normal text-2xl mb-3"> or $540/Year (Save 10%)</Heading>
               </div>
@@ -69,12 +65,8 @@ export default function AboutSubscriptionCard() {
                   level={5}
                   className="text-white font-bold text-lg md:text-xl lg:text-2xl mb-3"
                 >
-                  LOREM IPSUM
+                  Subscription Plan 2
                 </Heading>
-                <p className="text-white text-sm md:text-base font-light mb-6">
-                  Lorem Ipsum is simply dummy text of the printing and typesetting
-                  industry. Lorem lum has
-                </p>
                 <Heading level={5} className="text-white font-bold whitespace-normal text-lg mb-1">$120/Month</Heading>
                 <Heading level={5} className="text-primary font-bold whitespace-normal text-2xl mb-3"> or $1,152/Year (Save 20%)</Heading>
               </div>
@@ -113,12 +105,8 @@ export default function AboutSubscriptionCard() {
                   level={5}
                   className="text-white font-bold text-lg md:text-xl lg:text-2xl mb-3"
                 >
-                  LOREM IPSUM
+                Subscription Plan 3
                 </Heading>
-                <p className="text-white text-sm md:text-base font-light mb-6">
-                  Lorem Ipsum is simply dummy text of the printing and typesetting
-                  industry. Lorem lum has
-                </p>
                 <Heading level={5} className="text-white font-bold whitespace-normal text-lg mb-1">$50/Month</Heading>
                 <Heading level={5} className="text-primary font-bold whitespace-normal text-2xl mb-3"> or $540/Year (Save 10%)</Heading>
               </div>
