@@ -9,12 +9,14 @@ export default function SubscriptionCard() {
       <div className='flex flex-col items-center justify-center w-full mt-24 space-y-6'>
         <Heading level={3} className='text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-black'><span className='text-primary'>Subscription </span>Plans</Heading>
         <Heading level={3} className='text-base md:text-lg lg:text-2xl xl:text-3xl text-black'>Choose Your Plan</Heading>
-        <p className="text-white text-lg mb-6">Afrimeets offers flexible subscription plans designed to help you make the most of your experience. Unlock premium features, connect with more people, and build relationships that matter.</p>
+        <div className='w-full md:w-[80%] lg:w-[60%] text-center'>
+          <p className="text-black text-lg mb-6">Afrimeets offers flexible subscription plans designed to help you make the most of your experience. Unlock premium features, connect with more people, and build relationships that matter.</p>
+        </div>
       </div>
       <Container>
-        <div className="w-full flex flex-col lg:flex-row justify-between space-y-5 lg:space-y-0 lg:space-x-8 mt-10">
+        <div className="w-full flex flex-col lg:flex-row justify-between lg:space-y-0 lg:space-x-8">
           {/* Card 1 */}
-          <div className='pb-4 pt-4'>
+          <div className='pb-4 pt-4 w-full md:w-[33%]'>
             <div
               className="bg-black bg-opacity-90 p-6 rounded-2xl flex flex-col justify-between w-full transform transition-transform duration-300 ease-in-out hover:scale-105"
               style={{
@@ -28,12 +30,8 @@ export default function SubscriptionCard() {
                   level={5}
                   className="text-white font-bold text-lg md:text-xl lg:text-2xl mb-3"
                 >
-                  LOREM IPSUM
+                  Subscription Plan 1
                 </Heading>
-                <p className="text-white text-sm md:text-base font-light mb-6">
-                  Lorem Ipsum is simply dummy text of the printing and typesetting
-                  industry. Lorem lum has
-                </p>
                 <Heading
                   level={5}
                   className="text-primary font-bold text-2xl md:text-3xl lg:text-4xl mb-3"
@@ -56,7 +54,7 @@ export default function SubscriptionCard() {
           </div>
 
           {/* Card 2 */}
-          <div>
+          <div className='w-full md:w-[33%]'>
             <div
               className="bg-black bg-opacity-90 p-6 rounded-2xl flex flex-col justify-between w-full transform transition-transform duration-300 ease-in-out hover:scale-105"
               style={{
@@ -70,12 +68,9 @@ export default function SubscriptionCard() {
                   level={5}
                   className="text-white font-bold text-lg md:text-xl lg:text-2xl mb-3"
                 >
-                  LOREM IPSUM
+                  Subscription Plan 2
                 </Heading>
-                <p className="text-white text-sm md:text-base font-light mb-6">
-                  Lorem Ipsum is simply dummy text of the printing and typesetting
-                  industry. Lorem lum has
-                </p>
+
                 <Heading
                   level={5}
                   className="text-primary font-bold text-2xl md:text-3xl lg:text-4xl mb-3"
@@ -100,7 +95,7 @@ export default function SubscriptionCard() {
           </div>
 
           {/* Card 3 */}
-          <div className='pb-4 pt-4'>
+          <div className='pb-4 pt-4 w-full md:w-[33%]'>
             <div
               className="bg-black bg-opacity-90 p-6 rounded-2xl flex flex-col justify-between w-full transform transition-transform duration-300 ease-in-out hover:scale-105"
               style={{
@@ -114,12 +109,8 @@ export default function SubscriptionCard() {
                   level={5}
                   className="text-white font-bold text-lg md:text-xl lg:text-2xl mb-3"
                 >
-                  LOREM IPSUM
+                  Subscription Plan 3
                 </Heading>
-                <p className="text-white text-sm md:text-base font-light mb-6">
-                  Lorem Ipsum is simply dummy text of the printing and typesetting
-                  industry. Lorem lum has
-                </p>
                 <Heading
                   level={5}
                   className="text-primary font-bold text-2xl md:text-3xl lg:text-4xl mb-3"
