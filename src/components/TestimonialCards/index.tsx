@@ -66,7 +66,7 @@ export default function TestimonialCards() {
                                 <p className="text-white text-sm md:text-base lg:text-lg">
                                     {testimonial.text}
                                 </p>
-                            </div>
+                            </div> 
                         </SwiperSlide>
                     ))}
                 </Swiper>
