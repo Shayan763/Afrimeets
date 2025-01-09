@@ -50,49 +50,27 @@ export default function TestimonialCards() {
                     {[
                         {
                             id: 1,
-                            image: '/assets/images/secinnr.png',
                             text: "Afrimeets gave me a space to connect with people who share my values and culture.",
-                            name: "DEVON LARRET",
-                            title: "FOUNDER, SOME COMPANY",
                         },
                         {
                             id: 2,
-                            image: '/assets/images/secinnr.png',
                             text: "A unique platform that fosters genuine connections across the globe.",
-                            name: "DEVON LARRET",
-                            title: "FOUNDER, SOME COMPANY",
                         },
                         {
                             id: 3,
-                            image: '/assets/images/secinnr.png',
                             text: "Afrimeets has helped me find incredible friendships and meaningful collaborations.",
-                            name: "DEVON LARRET",
-                            title: "FOUNDER, SOME COMPANY",
                         },
                     ].map((testimonial) => (
                         <SwiperSlide key={testimonial.id} className="p-4">
-                            <div className="flex flex-col items-center text-center space-y-3 border p-3 rounded-3xl border-white transition-transform transform hover:scale-105 hover:z-50">
-                                <BaseImage
-                                    src={testimonial.image}
-                                    height={100}
-                                    width={100}
-                                    alt="testimonial"
-                                    className="object-cover rounded-full"
-                                />
+                            <div className="flex flex-col items-center text-center space-y-3 border pt-20 pb-20 p-3 rounded-3xl border-white transition-transform transform hover:scale-105 hover:z-50">
                                 <p className="text-white text-sm md:text-base lg:text-lg">
                                     {testimonial.text}
                                 </p>
-                                <Heading level={6} className="text-white text-sm md:text-base lg:text-lg">
-                                    {testimonial.name}
-                                </Heading>
-                                <Heading level={6} className="text-white font-light text-xs md:text-sm lg:text-base">
-                                    {testimonial.title}
-                                </Heading>
-                            </div>
+                            </div> 
                         </SwiperSlide>
                     ))}
                 </Swiper>
             </Container>
-        </div>
+        </div>     
     );
 }

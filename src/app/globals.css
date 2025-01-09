@@ -69,3 +69,74 @@ body {
 .animate-fadeInFromTop {
   animation: fadeInFromTop 1s ease-out;
 }
+
+.text-animation {
+  position: relative;
+  animation: slideInFromRight 1.5s ease-out;
+  opacity: 1;
+}
+
+/* Slide in from the right */
+.slide-in-from-right {
+  animation: slideInFromRight 1.5s ease-out;
+}
+
+@keyframes slideInFromRight {
+  from {
+      transform: translateX(100%);
+      opacity: 0;
+  }
+  to {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+/* Slide in from the left */
+.slide-in-from-left {
+  animation: slideInFromLeft 1.5s ease-out;
+}
+
+@keyframes slideInFromLeft {
+  from {
+      transform: translateX(-100%);
+      opacity: 0;
+  }
+  to {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+/* Slide in from the top */
+.slide-in-from-top {
+  animation: slideInFromTop 1.5s ease-out;
+}
+
+@keyframes slideInFromTop {
+  from {
+      transform: translateY(-100%);
+      opacity: 0;
+  }
+  to {
+      transform: translateY(0);
+      opacity: 1;
+  }
+}
+
+/* Slide in from the bottom */
+.slide-in-from-bottom {
+  animation: slideInFromBottom 1.5s ease-out;
+}
+
+@keyframes slideInFromBottom {
+  from {
+      transform: translateY(100%);
+      opacity: 0;
+  }
+  to {
+      transform: translateY(0);
+      opacity: 1;
+  }
+}
+

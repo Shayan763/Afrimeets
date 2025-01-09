@@ -7,21 +7,29 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center w-full px-6 py-5 bg-[#1A1A1A] space-y-6 md:space-y-0">
             {/* Afrimeets Section */}
             <div className="flex flex-col items-center md:items-start">
-                <p className="text-white font-normal text-2xl mb-4">Afrimeets</p>
+                <Link href="/">
+                    <BaseImage
+                        src="/assets/images/logo.png"
+                        height={120}
+                        width={120}
+                        alt="logo"
+                        style={{ objectFit: "cover" }}
+                    />
+                </Link>
                 <ul className="font-normal list-none text-center md:text-left">
                     <li className="mb-2 hover:text-primary hover:scale-110 transition-transform duration-200 text-white text-sm md:text-base font-normal">
                         <Link href="/terms-and-conditions">
-                                Terms and Conditions
+                            Terms and Conditions
                         </Link>
                     </li>
                     <li className="mb-2 ">
                         <Link href="/privacy-policy">
-                                Privacy Policy
+                            Privacy Policy
                         </Link>
                     </li>
                     <li className="hover:text-primary hover:scale-110 transition-transform duration-200 text-white text-sm md:text-base font-normal">
                         <Link href="/cancellation-policy">
-                                Cancellation Policy
+                            Cancellation Policy
                         </Link>
                     </li>
                 </ul>

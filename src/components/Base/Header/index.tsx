@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Container from "@/components/Base/Container";
 import Dropdown from "../Dropdown";
 import BaseImage from "../BaseImage";
+import Link from "next/link";
 
 type Option = {
   label: string;
@@ -25,13 +26,15 @@ export default function Header() {
         <div className="flex justify-between items-center w-full pb-2">
           {/* Left Links */}
           <div>
-            <BaseImage
-              src="/assets/images/logo.png"
-              height={120}
-              width={120}
-              alt="logo"
-              style={{ objectFit: "cover" }}
-            />
+            <Link href="/">
+              <BaseImage
+                src="/assets/images/logo.png"
+                height={120}
+                width={120}
+                alt="logo"
+                style={{ objectFit: "cover" }}
+              />
+            </Link>
           </div>
 
           {/* Center Brand */}
@@ -65,9 +68,8 @@ export default function Header() {
 
         {/* Drawer Menu for Mobile */}
         <div
-          className={`fixed top-0 right-0 bg-[#1A1A1A] z-40 h-full w-2/3 transform transition-transform duration-300 ${
-            isDrawerOpen ? "translate-x-0" : "translate-x-full"
-          }`}
+          className={`fixed top-0 right-0 bg-[#1A1A1A] z-40 h-full w-2/3 transform transition-transform duration-300 ${isDrawerOpen ? "translate-x-0" : "translate-x-full"
+            }`}
         >
           <div className="flex justify-end p-4">
             <button onClick={toggleDrawer} className="text-white text-2xl">

@@ -13,10 +13,11 @@ export default function Subscription() {
       <div
         className='overflow-x-hidden bg-cover bg-center h-screen w-full flex flex-col justify-between p-5 sm:p-10 mb-10'
         style={{
-          backgroundImage: `url(/assets/images/aboutusbanner.png)`,
+          backgroundImage: `url(/assets/images/subscriptionplans.jpg)`,
           overflow: 'hidden',
           width: '100% !important',
-          height: '100%',
+          height: '160%',
+          objectFit: 'cover',
         }}
       >
         <Header />
