@@ -5,12 +5,13 @@ import AboutSubscriptionCard from '@/components/AboutSubscriptionCard';
 import AboutUsDetailCardsOne from '@/components/AboutUsDetailCardsOne/Index';
 import AboutExtraDetail from '@/components/AboutExtraDetail';
 import AboutSliderBanner from '@/components/AboutSliderBanner';
+import AboutBanner from '@/components/AboutSliderBanner';
 
 export default function AboutUs() {
   return (
     <div className='w-full -mt-4'>
       <Header />
-      <AboutSliderBanner />
+      <AboutBanner />
       <AboutUsDetailCardsOne />
       {/* <TestimonialCards /> */}
       <div className='flex justify-center items-center'>
